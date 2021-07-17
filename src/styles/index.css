@@ -1,0 +1,29 @@
+
+html {
+  overflow: hidden;
+  overflow-y: scroll;
+  scroll-behavior: smoth;
+}
+body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Sumana', 'Montserrat', sans-serif; /*IBM Plex Sans*/
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+#wrap {
+  display: flex;
+  align-content: center;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+}
+
+a {
+  pointer-events: none;
+  cursor: default;
+  text-decoration: none;
+  color: black;
+}

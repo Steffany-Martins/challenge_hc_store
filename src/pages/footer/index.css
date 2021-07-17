@@ -1,0 +1,59 @@
+.containerBag {
+  display: flex;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  flex-direction: column;
+  margin: 0;
+  background-color:rgba(174, 242, 242, 0.83);
+  text-align: center;
+  width: 100vw;
+  padding-top: 50px;
+}
+
+.gallery-bags {
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-bottom: 7rem;
+}
+.gallery-bags img {
+  width: 200px;
+  height: 150px;
+}
+.gallery-bags img {
+  margin-left: 20px;
+}
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  background: url(../../assets/img/footer.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
+  color: #FFFFFF;
+
+}
+
+.footer div:nth-child(1) {
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  align-items: center;
+  margin-top: 101px;
+}
+
+.footer h1 {
+  font-weight: 500;
+  font-size: 3rem;
+  line-height: 5px;
+  letter-spacing: 0.2rem;
+}
+.footer p {
+  font-weight: normal;
+  font-size: 1rem;
+  line-height: 10px;
+  letter-spacing: inherit;
+}

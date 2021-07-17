@@ -1,0 +1,140 @@
+.container {
+  display: flex;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  flex-direction: column;
+  margin: 0;
+  background: linear-gradient(180deg, #FFCB7C 0%, rgba(242, 224, 198, 0) 100%);;
+  text-align: center;
+  width: 100vw;
+  padding-top: 50px;
+  justify-content: space-between;
+}
+.boxGallery {
+  height: 100vh;
+}
+.boxGallery .title {
+  flex-wrap: wrap;
+}
+.boxGallery .title h2 {
+  font-weight: 500;
+  font-size: 2rem;
+  color: #837070;
+  letter-spacing: 5px;
+}
+
+.boxGallery .title p {
+  padding: 2rem;
+  text-transform: uppercase;
+  letter-spacing: 0.2rem;
+  line-height: 22px;
+  font-size: 1.2rem;
+  color: #F2994A;
+}
+.boxGallery .imagesArea{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+
+.two-images img:nth-child(2) { 
+  margin-top: 29px;
+}
+.two-images div {
+  display: flex;
+  flex-direction: column;
+}
+
+.boxPdp {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  padding-bottom: 10rem;
+}
+
+.boxPdp img {
+  filter:brightness(2);
+  
+}
+
+.boxPdp div:nth-child(1){
+  background-color: #fff;
+  display: flex;
+  
+}
+
+
+.boxPdp div:nth-child(1) img {
+  max-width: 19rem;
+  object-fit: cover;
+}
+.boxPdp div:nth-child(1) p {
+  display: flex;
+  align-self: flex-start;
+  font-weight: 200;
+  color: #828282;
+  font-size: 1rem;
+  line-height: 22px;
+  letter-spacing: 0.3rem;
+
+}
+
+.boxPdp div:nth-child(1) h3 {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1rem;
+  line-height: 5px;
+  letter-spacing: 0.3em;
+
+  /* Gray 1 */
+
+  color: #333333;
+
+
+}
+.boxPdp div:nth-child(1) h4 {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 3rem;
+  line-height: 4px;
+  /* identical to box height, or 37% */
+  letter-spacing: 0.1em;
+
+  color: #FF9D9D;
+}
+
+.boxPdp div:nth-child(1) button {
+ align-self: center;
+ cursor: pointer;
+ font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 30px;
+  /* identical to box height, or 214% */
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+
+  /* Gray 1 */
+
+  color: #333333;
+  background-color: white;
+  padding: 10px;
+
+}
+
+
+
+
+.boxPdp div:nth-child(1) button:active {
+ transition: all 10ms;
+ background-color: black;
+ color: white;
+}
+.boxPdp div:nth-child(2) {
+ padding: 4rem;
+}

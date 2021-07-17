@@ -1,0 +1,42 @@
+.box {
+  display: inline-block;
+  box-sizing: border-box;
+  background-color: #FFCD84;
+  width: 100vw;
+  height: 100vh;
+  text-align: center;
+}
+.box p {
+  top: 10px;
+  font-size: 3rem;
+  font-family: 'Montserrat';
+  color: #F25656;
+}
+
+.boxButton {
+  text-align: center;
+}
+.box button {
+  background-color: #F2994A;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  text-transform: uppercase;
+  line-height: 1rem;
+  padding: 20px;
+
+}
+.box button:active {
+  color: gray;
+  background-color: #fcc493;
+  transition: ease-in-out 5ms;
+}
+.boxImg {
+  display: flex;
+ justify-content: center;
+ align-content: center;
+ margin-bottom: 9px;
+}
+.boxImg button {
+  margin-top: 70px;
+}
