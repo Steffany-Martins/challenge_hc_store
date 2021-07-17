@@ -10,7 +10,6 @@ interface submitData {
 function Form() {
 
   const { register, setValue, handleSubmit } = useForm();
-  let repository: string[];
 
   useEffect(() => {
     register('firstName');
